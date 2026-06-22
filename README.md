@@ -1,4 +1,4 @@
-# -Digital-Forensics-Disk-Imaging-and-Analysis-Lab
+# Digital-Forensics-Disk-Imaging-and-Analysis-Lab
 This project demonstrates a complete digital forensic acquisition and analysis workflow using Kali Linux and forensic tools. A forensic image was acquired from a removable NTFS device, validated using cryptographic hashes, and analyzed for hidden and recoverable artifacts.
 
 The lab follows forensic best practices by preserving evidence integrity through hashing and image verification.
