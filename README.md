@@ -43,7 +43,7 @@ Device:
 - /dev/sdb
 - Size: 2 GB
 - Filesystem: NTFS
-- ![Disk Name](Screenshots/diskname.png)
+- ![Disk Name](screenshots/diskname.png)
 - --
 ## Integrity Verification
 
@@ -54,7 +54,7 @@ Algorithms:
 - SHA-256
 
 Verification results confirmed the forensic image was identical to the source media.
-![Integrity Verification](Screenshots/hashvalues.png)![](screenshots/md5sum.png)![](screenshots/md5&sha256.png)
+![Integrity Verification](screenshots/hashvalues.png)![](screenshots/md5sum.png)![](screenshots/md5&sha256.png)
 
 ## File Recovery
 
@@ -64,7 +64,7 @@ Recovered artifacts:
 - pic1.jpg
 - pic2.jpg
 - garfield.asc
-- ![File Recovery](Screenshots/mountedpix.png)![](screenshots/export.png)
+- ![File Recovery](screenshots/mountedpix.png)![](screenshots/export.png)
 
 - ## Hidden Artifact Analysis
 
@@ -76,7 +76,7 @@ Findings:
 - PGP public key artifact (garfield.asc)
 
 This demonstrates basic forensic artifact discovery and file carving techniques.
-![Hidden Artifact Analysis](Screenshots/binwalk.png)![](screenshots/garfieldpublickey.png)![](screenshots/catview.png)
+![Hidden Artifact Analysis](screenshots/binwalk.png)![](screenshots/garfieldpublickey.png)![](screenshots/catview.png)
 
 ## Skills Demonstrated
 
