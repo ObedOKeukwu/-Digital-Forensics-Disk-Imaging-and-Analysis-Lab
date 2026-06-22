@@ -37,13 +37,13 @@ Hashes generated:
 
 Image verification confirmed that the acquired image matched the source device.
 ## Disk Identification
-![Disk Name](Screenshots/diskname.png)
 The target storage device was identified using Linux disk utilities.
 
 Device:
 - /dev/sdb
 - Size: 2 GB
 - Filesystem: NTFS
+- ![Disk Name](Screenshots/diskname.png)
 - --
 ## Integrity Verification
 
@@ -54,7 +54,7 @@ Algorithms:
 - SHA-256
 
 Verification results confirmed the forensic image was identical to the source media.
-![Integrity Verification](Screenshots/hashvalues.png) ![](screenshots/md5sum.png) ![](screenshots/md5&sha256.png)
+![Integrity Verification](Screenshots/hashvalues.png)![](screenshots/md5sum.png)![](screenshots/md5&sha256.png)
 
 ## File Recovery
 
@@ -76,7 +76,7 @@ Findings:
 - PGP public key artifact (garfield.asc)
 
 This demonstrates basic forensic artifact discovery and file carving techniques.
-![Hidden Artifact Analysis](Screenshots/binwalk.png) ![](screenshots/garfieldpublickey.png) ![](screenshots/catview.png)
+![Hidden Artifact Analysis](Screenshots/binwalk.png)![](screenshots/garfieldpublickey.png)![](screenshots/catview.png)
 
 ## Skills Demonstrated
 
